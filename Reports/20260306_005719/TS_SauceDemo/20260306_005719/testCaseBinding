@@ -1,0 +1,6 @@
+{"testCaseExecutionId":"03bb7b03-df54-4a48-91ae-7b46c0c57281","testCaseName":"Test Cases/Cart/TC_Add_Product","testCaseId":"Test Cases/Cart/TC_Add_Product","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"61b03565-74c3-4b39-9f58-a2dc0d613278","testCaseName":"Test Cases/Cart/TC_Remove_Product","testCaseId":"Test Cases/Cart/TC_Remove_Product","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"40023b54-4dd3-49cf-a0eb-5703ba14eee6","testCaseName":"Test Cases/Checkout/TC_Checkout_Flow","testCaseId":"Test Cases/Checkout/TC_Checkout_Flow","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"8ec0a1bf-b98c-4de1-a1bc-b253303d47c7","testCaseName":"Test Cases/Login/TC_Login_Invalid","testCaseId":"Test Cases/Login/TC_Login_Invalid","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"7e507547-937e-4884-8c44-a68972bc0cc9","testCaseName":"Test Cases/Login/TC_Login_Valid","testCaseId":"Test Cases/Login/TC_Login_Valid","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"8da74d85-63cb-4169-8e16-09495e2354d5","testCaseName":"Test Cases/Logout/TC_Logout","testCaseId":"Test Cases/Logout/TC_Logout","iterationVariableName":"","bindedValues":{}}

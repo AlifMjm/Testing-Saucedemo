@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_SauceDemo,Firefox 148.0,,,06-03-2026 00:57:35,06-03-2026 00:58:54,1m - 18.136s,PASSED
+,,,,,,,
+Test Cases/Cart/TC_Add_Product,Firefox 148.0,,,06-03-2026 00:57:36,06-03-2026 00:57:52,15.701s,PASSED
+"username = ""standard_user""",Firefox 148.0,,,06-03-2026 00:57:37,06-03-2026 00:57:37,0.006s,PASSED
+"passwordEncrypted = ""qcu24s4901FyWDTwXGr6XA==""",Firefox 148.0,,,06-03-2026 00:57:37,06-03-2026 00:57:37,0.001s,PASSED
+"openBrowser("""")",Firefox 148.0,,,06-03-2026 00:57:37,06-03-2026 00:57:43,6.541s,PASSED
+maximizeWindow(),Firefox 148.0,,,06-03-2026 00:57:43,06-03-2026 00:57:44,0.327s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 148.0,,,06-03-2026 00:57:44,06-03-2026 00:57:44,0.686s,PASSED
+"waitForElementVisible(findTestObject(""Cart/Page_Swag Labs/input_Username""), 10)",Firefox 148.0,,,06-03-2026 00:57:44,06-03-2026 00:57:46,1.640s,PASSED
+"setText(findTestObject(""Cart/Page_Swag Labs/input_Username""), username)",Firefox 148.0,,,06-03-2026 00:57:46,06-03-2026 00:57:47,1.141s,PASSED
+"setEncryptedText(findTestObject(""Cart/Page_Swag Labs/input_Password""), passwordEncrypted)",Firefox 148.0,,,06-03-2026 00:57:47,06-03-2026 00:57:47,0.455s,PASSED
+"click(findTestObject(""Cart/Page_Swag Labs/input_login-button""))",Firefox 148.0,,,06-03-2026 00:57:47,06-03-2026 00:57:48,0.529s,PASSED
+"waitForElementVisible(findTestObject(""Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack""), 10)",Firefox 148.0,,,06-03-2026 00:57:48,06-03-2026 00:57:48,0.443s,PASSED
+"click(findTestObject(""Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack""))",Firefox 148.0,,,06-03-2026 00:57:48,06-03-2026 00:57:49,0.424s,PASSED
+"click(findTestObject(""Cart/Page_Swag Labs/a_1""))",Firefox 148.0,,,06-03-2026 00:57:49,06-03-2026 00:57:50,0.602s,PASSED
+"productAdded = verifyElementPresent(findTestObject(""Cart/Page_Swag Labs/div_1Sauce Labs Backpackcarry.allTheThings() wit""), 10, OPTIONAL)",Firefox 148.0,,,06-03-2026 00:57:50,06-03-2026 00:57:50,0.436s,PASSED
+if (productAdded),Firefox 148.0,,,06-03-2026 00:57:50,06-03-2026 00:57:50,0.091s,PASSED
+takeScreenshot(),Firefox 148.0,,,06-03-2026 00:57:50,06-03-2026 00:57:50,0.459s,PASSED
+closeBrowser(),Firefox 148.0,,,06-03-2026 00:57:50,06-03-2026 00:57:52,1.413s,PASSED
+,,,,,,,
+Test Cases/Cart/TC_Remove_Product,Firefox 148.0,,,06-03-2026 00:57:52,06-03-2026 00:58:04,11.900s,PASSED
+"username = ""standard_user""",Firefox 148.0,,,06-03-2026 00:57:52,06-03-2026 00:57:52,0.003s,PASSED
+"passwordEncrypted = ""qcu24s4901FyWDTwXGr6XA==""",Firefox 148.0,,,06-03-2026 00:57:52,06-03-2026 00:57:52,0.001s,PASSED
+"openBrowser("""")",Firefox 148.0,,,06-03-2026 00:57:52,06-03-2026 00:57:56,4.203s,PASSED
+maximizeWindow(),Firefox 148.0,,,06-03-2026 00:57:56,06-03-2026 00:57:57,0.329s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 148.0,,,06-03-2026 00:57:57,06-03-2026 00:57:57,0.772s,PASSED
+"waitForElementVisible(findTestObject(""Cart/remove/Page_Swag Labs/input_Username""), 10)",Firefox 148.0,,,06-03-2026 00:57:57,06-03-2026 00:57:58,0.376s,PASSED
+"setText(findTestObject(""Cart/remove/Page_Swag Labs/input_Username""), username)",Firefox 148.0,,,06-03-2026 00:57:58,06-03-2026 00:57:58,0.795s,PASSED
+"setEncryptedText(findTestObject(""Cart/remove/Page_Swag Labs/input_Password""), passwordEncrypted)",Firefox 148.0,,,06-03-2026 00:57:58,06-03-2026 00:57:59,0.468s,PASSED
+"click(findTestObject(""Cart/remove/Page_Swag Labs/input_login-button""))",Firefox 148.0,,,06-03-2026 00:57:59,06-03-2026 00:57:59,0.537s,PASSED
+"waitForElementVisible(findTestObject(""Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack""), 10)",Firefox 148.0,,,06-03-2026 00:57:59,06-03-2026 00:58:00,0.423s,PASSED
+"click(findTestObject(""Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack""))",Firefox 148.0,,,06-03-2026 00:58:00,06-03-2026 00:58:00,0.422s,PASSED
+"click(findTestObject(""Cart/remove/Page_Swag Labs/a_1""))",Firefox 148.0,,,06-03-2026 00:58:00,06-03-2026 00:58:01,0.607s,PASSED
+"click(findTestObject(""Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack""))",Firefox 148.0,,,06-03-2026 00:58:01,06-03-2026 00:58:02,0.547s,PASSED
+"productRemoved = verifyElementNotPresent(findTestObject(""Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack""), 5, OPTIONAL)",Firefox 148.0,,,06-03-2026 00:58:02,06-03-2026 00:58:02,0.413s,PASSED
+if (productRemoved),Firefox 148.0,,,06-03-2026 00:58:02,06-03-2026 00:58:02,0.018s,PASSED
+takeScreenshot(),Firefox 148.0,,,06-03-2026 00:58:02,06-03-2026 00:58:02,0.364s,PASSED
+closeBrowser(),Firefox 148.0,,,06-03-2026 00:58:02,06-03-2026 00:58:04,1.506s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout_Flow,Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:20,15.843s,PASSED
+"username = ""standard_user""",Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:04,0.002s,PASSED
+"passwordEncrypted = ""qcu24s4901FyWDTwXGr6XA==""",Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:04,0.009s,PASSED
+"firstName = ""haye""",Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:04,0.002s,PASSED
+"lastName = ""yuhu""",Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:04,0.001s,PASSED
+"zipCode = ""12345""",Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:04,0.002s,PASSED
+"openBrowser("""")",Firefox 148.0,,,06-03-2026 00:58:04,06-03-2026 00:58:08,3.966s,PASSED
+maximizeWindow(),Firefox 148.0,,,06-03-2026 00:58:08,06-03-2026 00:58:08,0.338s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 148.0,,,06-03-2026 00:58:08,06-03-2026 00:58:09,0.886s,PASSED
+"waitForElementVisible(findTestObject(""Checkout/Page_Swag Labs/input_Username""), 10)",Firefox 148.0,,,06-03-2026 00:58:09,06-03-2026 00:58:10,0.390s,PASSED
+"setText(findTestObject(""Checkout/Page_Swag Labs/input_Username""), username)",Firefox 148.0,,,06-03-2026 00:58:10,06-03-2026 00:58:11,1.029s,PASSED
+"setEncryptedText(findTestObject(""Checkout/Page_Swag Labs/input_Password""), passwordEncrypted)",Firefox 148.0,,,06-03-2026 00:58:11,06-03-2026 00:58:11,0.427s,PASSED
+"click(findTestObject(""Checkout/Page_Swag Labs/input_login-button""))",Firefox 148.0,,,06-03-2026 00:58:11,06-03-2026 00:58:11,0.446s,PASSED
+"waitForElementVisible(findTestObject(""Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack""), 10)",Firefox 148.0,,,06-03-2026 00:58:11,06-03-2026 00:58:12,0.419s,PASSED
+"click(findTestObject(""Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack""))",Firefox 148.0,,,06-03-2026 00:58:12,06-03-2026 00:58:12,0.522s,PASSED
+"click(findTestObject(""Checkout/Page_Swag Labs/a_1""))",Firefox 148.0,,,06-03-2026 00:58:12,06-03-2026 00:58:13,0.518s,PASSED
+"click(findTestObject(""Checkout/Page_Swag Labs/button_checkout""))",Firefox 148.0,,,06-03-2026 00:58:13,06-03-2026 00:58:13,0.558s,PASSED
+"setText(findTestObject(""Checkout/Page_Swag Labs/input_First Name""), firstName)",Firefox 148.0,,,06-03-2026 00:58:13,06-03-2026 00:58:14,0.908s,PASSED
+"setText(findTestObject(""Checkout/Page_Swag Labs/input_Last Name""), lastName)",Firefox 148.0,,,06-03-2026 00:58:14,06-03-2026 00:58:15,0.922s,PASSED
+"setText(findTestObject(""Checkout/Page_Swag Labs/input_Zip_Postal Code""), zipCode)",Firefox 148.0,,,06-03-2026 00:58:15,06-03-2026 00:58:16,0.926s,PASSED
+"click(findTestObject(""Checkout/Page_Swag Labs/input_continue""))",Firefox 148.0,,,06-03-2026 00:58:16,06-03-2026 00:58:17,0.593s,PASSED
+"click(findTestObject(""Checkout/Page_Swag Labs/button_finish""))",Firefox 148.0,,,06-03-2026 00:58:17,06-03-2026 00:58:17,0.570s,PASSED
+"orderSuccess = verifyElementPresent(findTestObject(""Checkout/Page_Swag Labs/h2_Thank you for your order""), 10, OPTIONAL)",Firefox 148.0,,,06-03-2026 00:58:17,06-03-2026 00:58:18,0.434s,PASSED
+if (orderSuccess),Firefox 148.0,,,06-03-2026 00:58:18,06-03-2026 00:58:18,0.033s,PASSED
+takeScreenshot(),Firefox 148.0,,,06-03-2026 00:58:18,06-03-2026 00:58:18,0.361s,PASSED
+closeBrowser(),Firefox 148.0,,,06-03-2026 00:58:18,06-03-2026 00:58:20,1.445s,PASSED
+,,,,,,,
+Test Cases/Login/TC_Login_Invalid,Firefox 148.0,,,06-03-2026 00:58:20,06-03-2026 00:58:31,11.363s,PASSED
+"username = ""standard_user""",Firefox 148.0,,,06-03-2026 00:58:20,06-03-2026 00:58:20,0.003s,PASSED
+"wrongPassword = ""wrong_password""",Firefox 148.0,,,06-03-2026 00:58:20,06-03-2026 00:58:20,0.002s,PASSED
+"openBrowser("""")",Firefox 148.0,,,06-03-2026 00:58:20,06-03-2026 00:58:24,4.214s,PASSED
+maximizeWindow(),Firefox 148.0,,,06-03-2026 00:58:24,06-03-2026 00:58:24,0.358s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 148.0,,,06-03-2026 00:58:24,06-03-2026 00:58:25,0.695s,PASSED
+"waitForElementVisible(findTestObject(""Login_Invalid/Page_Swag Labs/input_Username""), 10)",Firefox 148.0,,,06-03-2026 00:58:25,06-03-2026 00:58:25,0.434s,PASSED
+"setText(findTestObject(""Login_Invalid/Page_Swag Labs/input_Username""), username)",Firefox 148.0,,,06-03-2026 00:58:25,06-03-2026 00:58:26,0.792s,PASSED
+"setText(findTestObject(""Login_Invalid/Page_Swag Labs/input_Password""), wrongPassword)",Firefox 148.0,,,06-03-2026 00:58:26,06-03-2026 00:58:27,0.738s,PASSED
+"click(findTestObject(""Login_Invalid/Page_Swag Labs/input_login-button""))",Firefox 148.0,,,06-03-2026 00:58:27,06-03-2026 00:58:27,0.407s,PASSED
+"errorDisplayed = verifyElementPresent(findTestObject(""Login_Invalid/Page_Swag Labs/h3_Epic sadface_ Username and password do not ma""), 10, OPTIONAL)",Firefox 148.0,,,06-03-2026 00:58:27,06-03-2026 00:58:28,0.398s,PASSED
+if (errorDisplayed),Firefox 148.0,,,06-03-2026 00:58:28,06-03-2026 00:58:28,0.051s,PASSED
+"takeScreenshot(""Login_Invalid/Page_Swag Labs/input_Password"")",Firefox 148.0,,,06-03-2026 00:58:28,06-03-2026 00:58:28,0.369s,PASSED
+closeBrowser(),Firefox 148.0,,,06-03-2026 00:58:28,06-03-2026 00:58:31,2.769s,PASSED
+,,,,,,,
+Test Cases/Login/TC_Login_Valid,Firefox 148.0,,,06-03-2026 00:58:31,06-03-2026 00:58:41,10.158s,PASSED
+"username = ""standard_user""",Firefox 148.0,,,06-03-2026 00:58:31,06-03-2026 00:58:31,0.003s,PASSED
+"passwordEncrypted = ""qcu24s4901FyWDTwXGr6XA==""",Firefox 148.0,,,06-03-2026 00:58:31,06-03-2026 00:58:31,0.001s,PASSED
+"openBrowser("""")",Firefox 148.0,,,06-03-2026 00:58:31,06-03-2026 00:58:35,4.035s,PASSED
+maximizeWindow(),Firefox 148.0,,,06-03-2026 00:58:35,06-03-2026 00:58:36,0.346s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 148.0,,,06-03-2026 00:58:36,06-03-2026 00:58:36,0.865s,PASSED
+"waitForElementVisible(findTestObject(""Login_Valid/Page_Swag Labs/input_Username""), 10)",Firefox 148.0,,,06-03-2026 00:58:36,06-03-2026 00:58:37,0.352s,PASSED
+"setText(findTestObject(""Login_Valid/Page_Swag Labs/input_Username""), username)",Firefox 148.0,,,06-03-2026 00:58:37,06-03-2026 00:58:38,0.803s,PASSED
+"setEncryptedText(findTestObject(""Login_Valid/Page_Swag Labs/input_Password""), passwordEncrypted)",Firefox 148.0,,,06-03-2026 00:58:38,06-03-2026 00:58:38,0.514s,PASSED
+"click(findTestObject(""Login_Valid/Page_Swag Labs/input_login-button""))",Firefox 148.0,,,06-03-2026 00:58:38,06-03-2026 00:58:38,0.440s,PASSED
+"loginSuccess = verifyElementPresent(findTestObject(""Login_Valid/Page_Swag Labs/div_Swag Labs""), 10, OPTIONAL)",Firefox 148.0,,,06-03-2026 00:58:38,06-03-2026 00:58:39,0.386s,PASSED
+if (loginSuccess),Firefox 148.0,,,06-03-2026 00:58:39,06-03-2026 00:58:39,0.018s,PASSED
+takeScreenshot(),Firefox 148.0,,,06-03-2026 00:58:39,06-03-2026 00:58:40,0.676s,PASSED
+closeBrowser(),Firefox 148.0,,,06-03-2026 00:58:40,06-03-2026 00:58:41,1.601s,PASSED
+,,,,,,,
+Test Cases/Logout/TC_Logout,Firefox 148.0,,,06-03-2026 00:58:41,06-03-2026 00:58:53,12.252s,PASSED
+"username = ""standard_user""",Firefox 148.0,,,06-03-2026 00:58:41,06-03-2026 00:58:41,0.002s,PASSED
+"passwordEncrypted = ""qcu24s4901FyWDTwXGr6XA==""",Firefox 148.0,,,06-03-2026 00:58:41,06-03-2026 00:58:41,0.000s,PASSED
+"openBrowser("""")",Firefox 148.0,,,06-03-2026 00:58:41,06-03-2026 00:58:46,4.451s,PASSED
+maximizeWindow(),Firefox 148.0,,,06-03-2026 00:58:46,06-03-2026 00:58:46,0.350s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 148.0,,,06-03-2026 00:58:46,06-03-2026 00:58:47,0.660s,PASSED
+"waitForElementVisible(findTestObject(""Logout/Page_Swag Labs/input_Username""), 10)",Firefox 148.0,,,06-03-2026 00:58:47,06-03-2026 00:58:47,0.347s,PASSED
+"setText(findTestObject(""Logout/Page_Swag Labs/input_Username""), username)",Firefox 148.0,,,06-03-2026 00:58:47,06-03-2026 00:58:48,0.682s,PASSED
+"setEncryptedText(findTestObject(""Logout/Page_Swag Labs/input_Password""), passwordEncrypted)",Firefox 148.0,,,06-03-2026 00:58:48,06-03-2026 00:58:48,0.419s,PASSED
+"click(findTestObject(""Logout/Page_Swag Labs/input_login-button""))",Firefox 148.0,,,06-03-2026 00:58:48,06-03-2026 00:58:49,0.431s,PASSED
+"waitForElementVisible(findTestObject(""Logout/Page_Swag Labs/button_react-burger-menu-btn""), 10)",Firefox 148.0,,,06-03-2026 00:58:49,06-03-2026 00:58:49,0.389s,PASSED
+"click(findTestObject(""Logout/Page_Swag Labs/button_react-burger-menu-btn""))",Firefox 148.0,,,06-03-2026 00:58:49,06-03-2026 00:58:49,0.385s,PASSED
+"click(findTestObject(""Logout/Page_Swag Labs/a_logout_sidebar_link""))",Firefox 148.0,,,06-03-2026 00:58:49,06-03-2026 00:58:50,0.416s,PASSED
+"logoutSuccess = verifyElementPresent(findTestObject(""Logout/Page_Swag Labs/input_login-button""), 10, OPTIONAL)",Firefox 148.0,,,06-03-2026 00:58:50,06-03-2026 00:58:50,0.368s,PASSED
+if (logoutSuccess),Firefox 148.0,,,06-03-2026 00:58:50,06-03-2026 00:58:50,0.024s,PASSED
+"takeScreenshot(""Logout/Page_Swag Labs/button_react-burger-menu-btn"")",Firefox 148.0,,,06-03-2026 00:58:50,06-03-2026 00:58:51,0.318s,PASSED
+"takeScreenshot(""Logout/Page_Swag Labs/a_logout_sidebar_link"")",Firefox 148.0,,,06-03-2026 00:58:51,06-03-2026 00:58:51,0.336s,PASSED
+closeBrowser(),Firefox 148.0,,,06-03-2026 00:58:51,06-03-2026 00:58:53,2.578s,PASSED

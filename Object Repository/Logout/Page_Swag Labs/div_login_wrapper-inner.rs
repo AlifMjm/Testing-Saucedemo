@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_login_wrapper-inner</name>
+   <tag></tag>
+   <elementGuidId>7f059344-6a8a-4494-b9b5-e69ba2df70b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login_wrapper-inner ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.login_wrapper-inner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d60f72ee-02de-486d-b8aa-8a71fad6ef3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login_wrapper-inner</value>
+      <webElementGuid>117a5222-a6ee-4d43-8b94-594a0d04e373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2b2ae1be7c6b2b3d6291f299025cb1b2</value>
+      <webElementGuid>8437dadb-f90c-4550-994e-691a0436dc72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login_wrapper-inner ')]</value>
+      <webElementGuid>a5205542-7837-448c-84dd-60a6abae005c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login_wrapper-inner ')]</value>
+      <webElementGuid>7a07acd8-82d3-4e69-8f4a-5799013203aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

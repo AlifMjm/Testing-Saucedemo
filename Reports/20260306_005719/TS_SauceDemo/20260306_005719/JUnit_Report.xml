@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SauceDemo" time="78.067" tests="6" failures="0" errors="0">
+   <testsuite name="TS_SauceDemo" tests="6" failures="0" errors="0" time="78.067" skipped="0" timestamp="2026-03-05T17:57:35.881Z" hostname="Alif Mjm - LAPTOP-0E4V4LB1" id="Test Suites/TS_SauceDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719"/>
+         <property name="logFiles" value="E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\console0.log, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\execution0.log"/>
+         <property name="attachments" value="E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733470602.png, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733482449.png, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733498357.png, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\Login_Invalid/Page_Swag Labs/input_Password, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733519402.png, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\Logout/Page_Swag Labs/button_react-burger-menu-btn, E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\Logout/Page_Swag Labs/a_logout_sidebar_link"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Alif Mjm - LAPTOP-0E4V4LB1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.0.0"/>
+         <property name="browser" value="Firefox 148.0"/>
+         <property name="userFullName" value="Alif Muhammad Jati Mustiko"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5e2e2952-a844-4de1-aae0-ffa061fe8f5c"/>
+         <property name="projectName" value="Test saucedemo"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cart/TC_Add_Product" time="15.701" classname="03bb7b03-df54-4a48-91ae-7b46c0c57281" status="PASSED">
+         <system-out><![CDATA[06-03-2026T00:57:36 - [TEST_CASE][PASSED] - Test Cases/Cart/TC_Add_Product: Test Cases/Cart/TC_Add_Product
+
+06-03-2026T00:57:37 - [TEST_STEP][PASSED] - username = "standard_user": null
+
+06-03-2026T00:57:37 - [TEST_STEP][PASSED] - passwordEncrypted = "qcu24s4901FyWDTwXGr6XA==": null
+
+06-03-2026T00:57:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2026T00:57:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+06-03-2026T00:57:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T00:57:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2026T00:57:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T00:57:44 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T00:57:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:57:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:57:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Cart/Page_Swag Labs/input_Username"), 10): Object 'Object Repository/Cart/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:57:46 - [TEST_STEP][PASSED] - setText(findTestObject("Cart/Page_Swag Labs/input_Username"), username): Text 'standard_user' is set on object 'Object Repository/Cart/Page_Swag Labs/input_Username'
+
+06-03-2026T00:57:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Cart/Page_Swag Labs/input_Username'
+
+06-03-2026T00:57:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Cart/Page_Swag Labs/input_Password"), passwordEncrypted): Text ****** has been set on object 'Object Repository/Cart/Page_Swag Labs/input_Password'
+
+06-03-2026T00:57:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Cart/Page_Swag Labs/input_Password'
+
+06-03-2026T00:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Cart/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Cart/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:57:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"), 10): Object 'Object Repository/Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is visible
+
+06-03-2026T00:57:48 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is visible
+
+06-03-2026T00:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack")): Object: 'Object Repository/Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Cart/Page_Swag Labs/a_1")): Object: 'Object Repository/Cart/Page_Swag Labs/a_1' is clicked on
+
+06-03-2026T00:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Page_Swag Labs/a_1' is clicked on
+
+06-03-2026T00:57:50 - [TEST_STEP][PASSED] - productAdded = verifyElementPresent(findTestObject("Cart/Page_Swag Labs/div_1Sauce Labs Backpackcarry.allTheThings() wit"), 10, OPTIONAL): Object 'Object Repository/Cart/Page_Swag Labs/div_1Sauce Labs Backpackcarry.allTheThings() wit' is present
+
+06-03-2026T00:57:50 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/Page_Swag Labs/div_1Sauce Labs Backpackcarry.allTheThings() wit' is present
+
+06-03-2026T00:57:50 - [TEST_STEP][PASSED] - if (productAdded): Product berhasil ditambahkan ke cart
+
+06-03-2026T00:57:50 - [TEST_STEP][PASSED] - comment("Product berhasil ditambahkan ke cart"): Product berhasil ditambahkan ke cart
+
+06-03-2026T00:57:50 - [MESSAGE][INFO] - Product berhasil ditambahkan ke cart
+
+06-03-2026T00:57:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-03-2026T00:57:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733470602.png]]
+
+06-03-2026T00:57:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2026T00:57:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TC_Remove_Product" time="11.9" classname="61b03565-74c3-4b39-9f58-a2dc0d613278" status="PASSED">
+         <system-out><![CDATA[06-03-2026T00:57:52 - [TEST_CASE][PASSED] - Test Cases/Cart/TC_Remove_Product: Test Cases/Cart/TC_Remove_Product
+
+06-03-2026T00:57:52 - [TEST_STEP][PASSED] - username = "standard_user": null
+
+06-03-2026T00:57:52 - [TEST_STEP][PASSED] - passwordEncrypted = "qcu24s4901FyWDTwXGr6XA==": null
+
+06-03-2026T00:57:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2026T00:57:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+06-03-2026T00:57:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T00:57:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2026T00:57:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T00:57:57 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T00:57:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:57:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:57:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Cart/remove/Page_Swag Labs/input_Username"), 10): Object 'Object Repository/Cart/remove/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:57:58 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/remove/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:57:58 - [TEST_STEP][PASSED] - setText(findTestObject("Cart/remove/Page_Swag Labs/input_Username"), username): Text 'standard_user' is set on object 'Object Repository/Cart/remove/Page_Swag Labs/input_Username'
+
+06-03-2026T00:57:58 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Cart/remove/Page_Swag Labs/input_Username'
+
+06-03-2026T00:57:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Cart/remove/Page_Swag Labs/input_Password"), passwordEncrypted): Text ****** has been set on object 'Object Repository/Cart/remove/Page_Swag Labs/input_Password'
+
+06-03-2026T00:57:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Cart/remove/Page_Swag Labs/input_Password'
+
+06-03-2026T00:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Cart/remove/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Cart/remove/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/remove/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:57:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"), 10): Object 'Object Repository/Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is visible
+
+06-03-2026T00:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is visible
+
+06-03-2026T00:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack")): Object: 'Object Repository/Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Cart/remove/Page_Swag Labs/a_1")): Object: 'Object Repository/Cart/remove/Page_Swag Labs/a_1' is clicked on
+
+06-03-2026T00:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/remove/Page_Swag Labs/a_1' is clicked on
+
+06-03-2026T00:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack")): Object: 'Object Repository/Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:58:02 - [TEST_STEP][PASSED] - productRemoved = verifyElementNotPresent(findTestObject("Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack"), 5, OPTIONAL): Web element with id: 'Object Repository/Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack' located by 'By.xpath: //*[@data-test = 'remove-sauce-labs-backpack']' is not present after '5' second(s)
+
+06-03-2026T00:58:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack' located by 'By.xpath: //*[@data-test = 'remove-sauce-labs-backpack']' is not present after '5' second(s)
+
+06-03-2026T00:58:02 - [TEST_STEP][PASSED] - if (productRemoved): Product berhasil dihapus dari cart
+
+06-03-2026T00:58:02 - [TEST_STEP][PASSED] - comment("Product berhasil dihapus dari cart"): Product berhasil dihapus dari cart
+
+06-03-2026T00:58:02 - [MESSAGE][INFO] - Product berhasil dihapus dari cart
+
+06-03-2026T00:58:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-03-2026T00:58:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733482449.png]]
+
+06-03-2026T00:58:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2026T00:58:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC_Checkout_Flow" time="15.843" classname="40023b54-4dd3-49cf-a0eb-5703ba14eee6" status="PASSED">
+         <system-out><![CDATA[06-03-2026T00:58:04 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC_Checkout_Flow: Test Cases/Checkout/TC_Checkout_Flow
+
+06-03-2026T00:58:04 - [TEST_STEP][PASSED] - username = "standard_user": null
+
+06-03-2026T00:58:04 - [TEST_STEP][PASSED] - passwordEncrypted = "qcu24s4901FyWDTwXGr6XA==": null
+
+06-03-2026T00:58:04 - [TEST_STEP][PASSED] - firstName = "haye": null
+
+06-03-2026T00:58:04 - [TEST_STEP][PASSED] - lastName = "yuhu": null
+
+06-03-2026T00:58:04 - [TEST_STEP][PASSED] - zipCode = "12345": null
+
+06-03-2026T00:58:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2026T00:58:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+06-03-2026T00:58:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T00:58:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2026T00:58:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T00:58:08 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T00:58:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:09 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Checkout/Page_Swag Labs/input_Username"), 10): Object 'Object Repository/Checkout/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/Page_Swag Labs/input_Username"), username): Text 'standard_user' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:11 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Checkout/Page_Swag Labs/input_Password"), passwordEncrypted): Text ****** has been set on object 'Object Repository/Checkout/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Checkout/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:11 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Checkout/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"), 10): Object 'Object Repository/Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is visible
+
+06-03-2026T00:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is visible
+
+06-03-2026T00:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack")): Object: 'Object Repository/Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack' is clicked on
+
+06-03-2026T00:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/Page_Swag Labs/a_1")): Object: 'Object Repository/Checkout/Page_Swag Labs/a_1' is clicked on
+
+06-03-2026T00:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Swag Labs/a_1' is clicked on
+
+06-03-2026T00:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/Page_Swag Labs/button_checkout")): Object: 'Object Repository/Checkout/Page_Swag Labs/button_checkout' is clicked on
+
+06-03-2026T00:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Swag Labs/button_checkout' is clicked on
+
+06-03-2026T00:58:13 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/Page_Swag Labs/input_First Name"), firstName): Text 'haye' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_First Name'
+
+06-03-2026T00:58:14 - [MESSAGE][PASSED] - Text 'haye' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_First Name'
+
+06-03-2026T00:58:14 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/Page_Swag Labs/input_Last Name"), lastName): Text 'yuhu' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_Last Name'
+
+06-03-2026T00:58:15 - [MESSAGE][PASSED] - Text 'yuhu' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_Last Name'
+
+06-03-2026T00:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/Page_Swag Labs/input_Zip_Postal Code"), zipCode): Text '12345' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_Zip_Postal Code'
+
+06-03-2026T00:58:16 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Checkout/Page_Swag Labs/input_Zip_Postal Code'
+
+06-03-2026T00:58:16 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/Page_Swag Labs/input_continue")): Object: 'Object Repository/Checkout/Page_Swag Labs/input_continue' is clicked on
+
+06-03-2026T00:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Swag Labs/input_continue' is clicked on
+
+06-03-2026T00:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/Page_Swag Labs/button_finish")): Object: 'Object Repository/Checkout/Page_Swag Labs/button_finish' is clicked on
+
+06-03-2026T00:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Swag Labs/button_finish' is clicked on
+
+06-03-2026T00:58:17 - [TEST_STEP][PASSED] - orderSuccess = verifyElementPresent(findTestObject("Checkout/Page_Swag Labs/h2_Thank you for your order"), 10, OPTIONAL): Object 'Object Repository/Checkout/Page_Swag Labs/h2_Thank you for your order' is present
+
+06-03-2026T00:58:18 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Page_Swag Labs/h2_Thank you for your order' is present
+
+06-03-2026T00:58:18 - [TEST_STEP][PASSED] - if (orderSuccess): Checkout berhasil - order selesai
+
+06-03-2026T00:58:18 - [TEST_STEP][PASSED] - comment("Checkout berhasil - order selesai"): Checkout berhasil - order selesai
+
+06-03-2026T00:58:18 - [MESSAGE][INFO] - Checkout berhasil - order selesai
+
+06-03-2026T00:58:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-03-2026T00:58:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733498357.png]]
+
+06-03-2026T00:58:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2026T00:58:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_Login_Invalid" time="11.363" classname="8ec0a1bf-b98c-4de1-a1bc-b253303d47c7" status="PASSED">
+         <system-out><![CDATA[06-03-2026T00:58:20 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login_Invalid: Test Cases/Login/TC_Login_Invalid
+
+06-03-2026T00:58:20 - [TEST_STEP][PASSED] - username = "standard_user": null
+
+06-03-2026T00:58:20 - [TEST_STEP][PASSED] - wrongPassword = "wrong_password": null
+
+06-03-2026T00:58:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2026T00:58:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+06-03-2026T00:58:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T00:58:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2026T00:58:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T00:58:24 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T00:58:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:25 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Login_Invalid/Page_Swag Labs/input_Username"), 10): Object 'Object Repository/Login_Invalid/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Invalid/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Invalid/Page_Swag Labs/input_Username"), username): Text 'standard_user' is set on object 'Object Repository/Login_Invalid/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:26 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Invalid/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Invalid/Page_Swag Labs/input_Password"), wrongPassword): Text 'wrong_password' is set on object 'Object Repository/Login_Invalid/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:27 - [MESSAGE][PASSED] - Text 'wrong_password' is set on object 'Object Repository/Login_Invalid/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Login_Invalid/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Login_Invalid/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Invalid/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:27 - [TEST_STEP][PASSED] - errorDisplayed = verifyElementPresent(findTestObject("Login_Invalid/Page_Swag Labs/h3_Epic sadface_ Username and password do not ma"), 10, OPTIONAL): Object 'Object Repository/Login_Invalid/Page_Swag Labs/h3_Epic sadface_ Username and password do not ma' is present
+
+06-03-2026T00:58:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Invalid/Page_Swag Labs/h3_Epic sadface_ Username and password do not ma' is present
+
+06-03-2026T00:58:28 - [TEST_STEP][PASSED] - if (errorDisplayed): Login gagal sesuai expected result
+
+06-03-2026T00:58:28 - [TEST_STEP][PASSED] - comment("Login gagal sesuai expected result"): Login gagal sesuai expected result
+
+06-03-2026T00:58:28 - [MESSAGE][INFO] - Login gagal sesuai expected result
+
+06-03-2026T00:58:28 - [TEST_STEP][PASSED] - takeScreenshot("Login_Invalid/Page_Swag Labs/input_Password"): Taking screenshot successfully
+
+06-03-2026T00:58:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\Login_Invalid/Page_Swag Labs/input_Password]]
+
+06-03-2026T00:58:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2026T00:58:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_Login_Valid" time="10.158" classname="7e507547-937e-4884-8c44-a68972bc0cc9" status="PASSED">
+         <system-out><![CDATA[06-03-2026T00:58:31 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login_Valid: Test Cases/Login/TC_Login_Valid
+
+06-03-2026T00:58:31 - [TEST_STEP][PASSED] - username = "standard_user": null
+
+06-03-2026T00:58:31 - [TEST_STEP][PASSED] - passwordEncrypted = "qcu24s4901FyWDTwXGr6XA==": null
+
+06-03-2026T00:58:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2026T00:58:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+06-03-2026T00:58:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T00:58:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2026T00:58:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T00:58:36 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T00:58:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:36 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Login_Valid/Page_Swag Labs/input_Username"), 10): Object 'Object Repository/Login_Valid/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Valid/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Valid/Page_Swag Labs/input_Username"), username): Text 'standard_user' is set on object 'Object Repository/Login_Valid/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:38 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Valid/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Valid/Page_Swag Labs/input_Password"), passwordEncrypted): Text ****** has been set on object 'Object Repository/Login_Valid/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Valid/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Login_Valid/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Login_Valid/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Valid/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:38 - [TEST_STEP][PASSED] - loginSuccess = verifyElementPresent(findTestObject("Login_Valid/Page_Swag Labs/div_Swag Labs"), 10, OPTIONAL): Object 'Object Repository/Login_Valid/Page_Swag Labs/div_Swag Labs' is present
+
+06-03-2026T00:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Valid/Page_Swag Labs/div_Swag Labs' is present
+
+06-03-2026T00:58:39 - [TEST_STEP][PASSED] - if (loginSuccess): Login berhasil - user masuk ke halaman inventory
+
+06-03-2026T00:58:39 - [TEST_STEP][PASSED] - comment("Login berhasil - user masuk ke halaman inventory"): Login berhasil - user masuk ke halaman inventory
+
+06-03-2026T00:58:39 - [MESSAGE][INFO] - Login berhasil - user masuk ke halaman inventory
+
+06-03-2026T00:58:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-03-2026T00:58:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\1772733519402.png]]
+
+06-03-2026T00:58:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2026T00:58:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/TC_Logout" time="12.252" classname="8da74d85-63cb-4169-8e16-09495e2354d5" status="PASSED">
+         <system-out><![CDATA[06-03-2026T00:58:41 - [TEST_CASE][PASSED] - Test Cases/Logout/TC_Logout: Test Cases/Logout/TC_Logout
+
+06-03-2026T00:58:41 - [TEST_STEP][PASSED] - username = "standard_user": null
+
+06-03-2026T00:58:41 - [TEST_STEP][PASSED] - passwordEncrypted = "qcu24s4901FyWDTwXGr6XA==": null
+
+06-03-2026T00:58:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2026T00:58:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+06-03-2026T00:58:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T00:58:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2026T00:58:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T00:58:46 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T00:58:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-03-2026T00:58:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Logout/Page_Swag Labs/input_Username"), 10): Object 'Object Repository/Logout/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Page_Swag Labs/input_Username' is visible
+
+06-03-2026T00:58:47 - [TEST_STEP][PASSED] - setText(findTestObject("Logout/Page_Swag Labs/input_Username"), username): Text 'standard_user' is set on object 'Object Repository/Logout/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:48 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Logout/Page_Swag Labs/input_Username'
+
+06-03-2026T00:58:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Logout/Page_Swag Labs/input_Password"), passwordEncrypted): Text ****** has been set on object 'Object Repository/Logout/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Logout/Page_Swag Labs/input_Password'
+
+06-03-2026T00:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Swag Labs/input_login-button")): Object: 'Object Repository/Logout/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Swag Labs/input_login-button' is clicked on
+
+06-03-2026T00:58:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Logout/Page_Swag Labs/button_react-burger-menu-btn"), 10): Object 'Object Repository/Logout/Page_Swag Labs/button_react-burger-menu-btn' is visible
+
+06-03-2026T00:58:49 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Page_Swag Labs/button_react-burger-menu-btn' is visible
+
+06-03-2026T00:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Swag Labs/button_react-burger-menu-btn")): Object: 'Object Repository/Logout/Page_Swag Labs/button_react-burger-menu-btn' is clicked on
+
+06-03-2026T00:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Swag Labs/button_react-burger-menu-btn' is clicked on
+
+06-03-2026T00:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Swag Labs/a_logout_sidebar_link")): Object: 'Object Repository/Logout/Page_Swag Labs/a_logout_sidebar_link' is clicked on
+
+06-03-2026T00:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Swag Labs/a_logout_sidebar_link' is clicked on
+
+06-03-2026T00:58:50 - [TEST_STEP][PASSED] - logoutSuccess = verifyElementPresent(findTestObject("Logout/Page_Swag Labs/input_login-button"), 10, OPTIONAL): Object 'Object Repository/Logout/Page_Swag Labs/input_login-button' is present
+
+06-03-2026T00:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Page_Swag Labs/input_login-button' is present
+
+06-03-2026T00:58:50 - [TEST_STEP][PASSED] - if (logoutSuccess): Logout berhasil - kembali ke halaman login
+
+06-03-2026T00:58:50 - [TEST_STEP][PASSED] - comment("Logout berhasil - kembali ke halaman login"): Logout berhasil - kembali ke halaman login
+
+06-03-2026T00:58:50 - [MESSAGE][INFO] - Logout berhasil - kembali ke halaman login
+
+06-03-2026T00:58:50 - [TEST_STEP][PASSED] - takeScreenshot("Logout/Page_Swag Labs/button_react-burger-menu-btn"): Taking screenshot successfully
+
+06-03-2026T00:58:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\Logout/Page_Swag Labs/button_react-burger-menu-btn]]
+
+06-03-2026T00:58:51 - [TEST_STEP][PASSED] - takeScreenshot("Logout/Page_Swag Labs/a_logout_sidebar_link"): Taking screenshot successfully
+
+06-03-2026T00:58:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\saucedemo-automation\\Test saucedemo\\Reports\\20260306_005719\\TS_SauceDemo\\20260306_005719\\Logout/Page_Swag Labs/a_logout_sidebar_link]]
+
+06-03-2026T00:58:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2026T00:58:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2026T00:57:35 - [TEST_SUITE][PASSED] - TS_SauceDemo: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

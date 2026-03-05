@@ -1,0 +1,185 @@
+2026-03-06 00:57:35.512 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Alif Mjm\.katalon\packages\KS-11.0.0\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 00:57:35.516 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: E:\saucedemo-automation\Test saucedemo\Include\config\log.properties
+2026-03-06 00:57:35.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_SauceDemo
+2026-03-06 00:57:35.986 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Alif Muhammad Jati Mustiko
+2026-03-06 00:57:35.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Test saucedemo
+2026-03-06 00:57:35.990 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Alif Mjm - LAPTOP-0E4V4LB1
+2026-03-06 00:57:35.991 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 00:57:35.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2026-03-06 00:57:35.994 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-03-06 00:57:36.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 00:57:36.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart/TC_Add_Product
+2026-03-06 00:57:37.186 DEBUG testcase.TC_Add_Product                  - 1: username = "standard_user"
+2026-03-06 00:57:37.192 DEBUG testcase.TC_Add_Product                  - 2: passwordEncrypted = "qcu24s4901FyWDTwXGr6XA=="
+2026-03-06 00:57:37.194 DEBUG testcase.TC_Add_Product                  - 3: openBrowser("")
+2026-03-06 00:57:37.653 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2026-03-06 00:57:37.801 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-03-06 00:57:43.664 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 52968b4f-5edc-4279-a914-4caf93966dcb
+2026-03-06 00:57:43.665 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 148.0
+2026-03-06 00:57:43.666 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 00:57:43.667 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 00:57:43.678 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 00:57:43.736 DEBUG testcase.TC_Add_Product                  - 4: maximizeWindow()
+2026-03-06 00:57:44.060 DEBUG testcase.TC_Add_Product                  - 5: navigateToUrl("https://www.saucedemo.com/")
+2026-03-06 00:57:44.750 DEBUG testcase.TC_Add_Product                  - 6: waitForElementVisible(findTestObject("Cart/Page_Swag Labs/input_Username"), 10)
+2026-03-06 00:57:46.391 DEBUG testcase.TC_Add_Product                  - 7: setText(findTestObject("Cart/Page_Swag Labs/input_Username"), username)
+2026-03-06 00:57:47.542 DEBUG testcase.TC_Add_Product                  - 8: setEncryptedText(findTestObject("Cart/Page_Swag Labs/input_Password"), passwordEncrypted)
+2026-03-06 00:57:47.998 DEBUG testcase.TC_Add_Product                  - 9: click(findTestObject("Cart/Page_Swag Labs/input_login-button"))
+2026-03-06 00:57:48.527 DEBUG testcase.TC_Add_Product                  - 10: waitForElementVisible(findTestObject("Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"), 10)
+2026-03-06 00:57:48.971 DEBUG testcase.TC_Add_Product                  - 11: click(findTestObject("Cart/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"))
+2026-03-06 00:57:49.396 DEBUG testcase.TC_Add_Product                  - 12: click(findTestObject("Cart/Page_Swag Labs/a_1"))
+2026-03-06 00:57:50.000 DEBUG testcase.TC_Add_Product                  - 13: productAdded = verifyElementPresent(findTestObject("Cart/Page_Swag Labs/div_1Sauce Labs Backpackcarry.allTheThings() wit"), 10, OPTIONAL)
+2026-03-06 00:57:50.437 DEBUG testcase.TC_Add_Product                  - 14: if (productAdded)
+2026-03-06 00:57:50.442 DEBUG testcase.TC_Add_Product                  - 1: comment("Product berhasil ditambahkan ke cart")
+2026-03-06 00:57:50.520 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Product berhasil ditambahkan ke cart
+2026-03-06 00:57:50.526 DEBUG testcase.TC_Add_Product                  - 16: takeScreenshot()
+2026-03-06 00:57:50.988 DEBUG testcase.TC_Add_Product                  - 17: closeBrowser()
+2026-03-06 00:57:52.408 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart/TC_Add_Product
+2026-03-06 00:57:52.417 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 00:57:52.417 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart/TC_Remove_Product
+2026-03-06 00:57:52.489 DEBUG testcase.TC_Remove_Product               - 1: username = "standard_user"
+2026-03-06 00:57:52.491 DEBUG testcase.TC_Remove_Product               - 2: passwordEncrypted = "qcu24s4901FyWDTwXGr6XA=="
+2026-03-06 00:57:52.493 DEBUG testcase.TC_Remove_Product               - 3: openBrowser("")
+2026-03-06 00:57:52.495 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2026-03-06 00:57:52.505 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-03-06 00:57:56.657 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a655a37e-754c-4eb3-834b-1c68cc28e61a
+2026-03-06 00:57:56.659 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 148.0
+2026-03-06 00:57:56.660 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 00:57:56.661 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 00:57:56.663 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 00:57:56.696 DEBUG testcase.TC_Remove_Product               - 4: maximizeWindow()
+2026-03-06 00:57:57.025 DEBUG testcase.TC_Remove_Product               - 5: navigateToUrl("https://www.saucedemo.com/")
+2026-03-06 00:57:57.799 DEBUG testcase.TC_Remove_Product               - 6: waitForElementVisible(findTestObject("Cart/remove/Page_Swag Labs/input_Username"), 10)
+2026-03-06 00:57:58.186 DEBUG testcase.TC_Remove_Product               - 7: setText(findTestObject("Cart/remove/Page_Swag Labs/input_Username"), username)
+2026-03-06 00:57:58.980 DEBUG testcase.TC_Remove_Product               - 8: setEncryptedText(findTestObject("Cart/remove/Page_Swag Labs/input_Password"), passwordEncrypted)
+2026-03-06 00:57:59.453 DEBUG testcase.TC_Remove_Product               - 9: click(findTestObject("Cart/remove/Page_Swag Labs/input_login-button"))
+2026-03-06 00:57:59.995 DEBUG testcase.TC_Remove_Product               - 10: waitForElementVisible(findTestObject("Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"), 10)
+2026-03-06 00:58:00.418 DEBUG testcase.TC_Remove_Product               - 11: click(findTestObject("Cart/remove/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"))
+2026-03-06 00:58:00.840 DEBUG testcase.TC_Remove_Product               - 12: click(findTestObject("Cart/remove/Page_Swag Labs/a_1"))
+2026-03-06 00:58:01.451 DEBUG testcase.TC_Remove_Product               - 13: click(findTestObject("Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack"))
+2026-03-06 00:58:02.001 DEBUG testcase.TC_Remove_Product               - 14: productRemoved = verifyElementNotPresent(findTestObject("Cart/remove/Page_Swag Labs/button_remove-sauce-labs-backpack"), 5, OPTIONAL)
+2026-03-06 00:58:02.418 DEBUG testcase.TC_Remove_Product               - 15: if (productRemoved)
+2026-03-06 00:58:02.424 DEBUG testcase.TC_Remove_Product               - 1: comment("Product berhasil dihapus dari cart")
+2026-03-06 00:58:02.432 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Product berhasil dihapus dari cart
+2026-03-06 00:58:02.437 DEBUG testcase.TC_Remove_Product               - 17: takeScreenshot()
+2026-03-06 00:58:02.806 DEBUG testcase.TC_Remove_Product               - 18: closeBrowser()
+2026-03-06 00:58:04.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart/TC_Remove_Product
+2026-03-06 00:58:04.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 00:58:04.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Checkout/TC_Checkout_Flow
+2026-03-06 00:58:04.409 DEBUG testcase.TC_Checkout_Flow                - 1: username = "standard_user"
+2026-03-06 00:58:04.411 DEBUG testcase.TC_Checkout_Flow                - 2: passwordEncrypted = "qcu24s4901FyWDTwXGr6XA=="
+2026-03-06 00:58:04.419 DEBUG testcase.TC_Checkout_Flow                - 3: firstName = "haye"
+2026-03-06 00:58:04.422 DEBUG testcase.TC_Checkout_Flow                - 4: lastName = "yuhu"
+2026-03-06 00:58:04.423 DEBUG testcase.TC_Checkout_Flow                - 5: zipCode = "12345"
+2026-03-06 00:58:04.424 DEBUG testcase.TC_Checkout_Flow                - 6: openBrowser("")
+2026-03-06 00:58:04.428 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2026-03-06 00:58:04.440 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-03-06 00:58:08.359 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4856d8cf-69c1-46d6-800d-605bdcbcfedb
+2026-03-06 00:58:08.360 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 148.0
+2026-03-06 00:58:08.360 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 00:58:08.361 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 00:58:08.362 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 00:58:08.391 DEBUG testcase.TC_Checkout_Flow                - 7: maximizeWindow()
+2026-03-06 00:58:08.729 DEBUG testcase.TC_Checkout_Flow                - 8: navigateToUrl("https://www.saucedemo.com/")
+2026-03-06 00:58:09.616 DEBUG testcase.TC_Checkout_Flow                - 9: waitForElementVisible(findTestObject("Checkout/Page_Swag Labs/input_Username"), 10)
+2026-03-06 00:58:10.009 DEBUG testcase.TC_Checkout_Flow                - 10: setText(findTestObject("Checkout/Page_Swag Labs/input_Username"), username)
+2026-03-06 00:58:11.043 DEBUG testcase.TC_Checkout_Flow                - 11: setEncryptedText(findTestObject("Checkout/Page_Swag Labs/input_Password"), passwordEncrypted)
+2026-03-06 00:58:11.471 DEBUG testcase.TC_Checkout_Flow                - 12: click(findTestObject("Checkout/Page_Swag Labs/input_login-button"))
+2026-03-06 00:58:11.917 DEBUG testcase.TC_Checkout_Flow                - 13: waitForElementVisible(findTestObject("Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"), 10)
+2026-03-06 00:58:12.339 DEBUG testcase.TC_Checkout_Flow                - 14: click(findTestObject("Checkout/Page_Swag Labs/button_add-to-cart-sauce-labs-backpack"))
+2026-03-06 00:58:12.873 DEBUG testcase.TC_Checkout_Flow                - 15: click(findTestObject("Checkout/Page_Swag Labs/a_1"))
+2026-03-06 00:58:13.394 DEBUG testcase.TC_Checkout_Flow                - 16: click(findTestObject("Checkout/Page_Swag Labs/button_checkout"))
+2026-03-06 00:58:13.952 DEBUG testcase.TC_Checkout_Flow                - 17: setText(findTestObject("Checkout/Page_Swag Labs/input_First Name"), firstName)
+2026-03-06 00:58:14.861 DEBUG testcase.TC_Checkout_Flow                - 18: setText(findTestObject("Checkout/Page_Swag Labs/input_Last Name"), lastName)
+2026-03-06 00:58:15.768 DEBUG testcase.TC_Checkout_Flow                - 19: setText(findTestObject("Checkout/Page_Swag Labs/input_Zip_Postal Code"), zipCode)
+2026-03-06 00:58:16.716 DEBUG testcase.TC_Checkout_Flow                - 20: click(findTestObject("Checkout/Page_Swag Labs/input_continue"))
+2026-03-06 00:58:17.314 DEBUG testcase.TC_Checkout_Flow                - 21: click(findTestObject("Checkout/Page_Swag Labs/button_finish"))
+2026-03-06 00:58:17.885 DEBUG testcase.TC_Checkout_Flow                - 22: orderSuccess = verifyElementPresent(findTestObject("Checkout/Page_Swag Labs/h2_Thank you for your order"), 10, OPTIONAL)
+2026-03-06 00:58:18.319 DEBUG testcase.TC_Checkout_Flow                - 23: if (orderSuccess)
+2026-03-06 00:58:18.340 DEBUG testcase.TC_Checkout_Flow                - 1: comment("Checkout berhasil - order selesai")
+2026-03-06 00:58:18.348 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Checkout berhasil - order selesai
+2026-03-06 00:58:18.352 DEBUG testcase.TC_Checkout_Flow                - 25: takeScreenshot()
+2026-03-06 00:58:18.715 DEBUG testcase.TC_Checkout_Flow                - 26: closeBrowser()
+2026-03-06 00:58:20.164 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Checkout/TC_Checkout_Flow
+2026-03-06 00:58:20.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 00:58:20.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_Login_Invalid
+2026-03-06 00:58:20.257 DEBUG testcase.TC_Login_Invalid                - 1: username = "standard_user"
+2026-03-06 00:58:20.260 DEBUG testcase.TC_Login_Invalid                - 2: wrongPassword = "wrong_password"
+2026-03-06 00:58:20.262 DEBUG testcase.TC_Login_Invalid                - 3: openBrowser("")
+2026-03-06 00:58:20.264 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2026-03-06 00:58:20.277 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-03-06 00:58:24.449 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 91f714f0-eaac-4efd-a098-3bdba67f8d3e
+2026-03-06 00:58:24.450 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 148.0
+2026-03-06 00:58:24.451 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 00:58:24.451 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 00:58:24.452 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 00:58:24.477 DEBUG testcase.TC_Login_Invalid                - 4: maximizeWindow()
+2026-03-06 00:58:24.836 DEBUG testcase.TC_Login_Invalid                - 5: navigateToUrl("https://www.saucedemo.com/")
+2026-03-06 00:58:25.533 DEBUG testcase.TC_Login_Invalid                - 6: waitForElementVisible(findTestObject("Login_Invalid/Page_Swag Labs/input_Username"), 10)
+2026-03-06 00:58:25.969 DEBUG testcase.TC_Login_Invalid                - 7: setText(findTestObject("Login_Invalid/Page_Swag Labs/input_Username"), username)
+2026-03-06 00:58:26.763 DEBUG testcase.TC_Login_Invalid                - 8: setText(findTestObject("Login_Invalid/Page_Swag Labs/input_Password"), wrongPassword)
+2026-03-06 00:58:27.506 DEBUG testcase.TC_Login_Invalid                - 9: click(findTestObject("Login_Invalid/Page_Swag Labs/input_login-button"))
+2026-03-06 00:58:27.914 DEBUG testcase.TC_Login_Invalid                - 10: errorDisplayed = verifyElementPresent(findTestObject("Login_Invalid/Page_Swag Labs/h3_Epic sadface_ Username and password do not ma"), 10, OPTIONAL)
+2026-03-06 00:58:28.314 DEBUG testcase.TC_Login_Invalid                - 11: if (errorDisplayed)
+2026-03-06 00:58:28.336 DEBUG testcase.TC_Login_Invalid                - 1: comment("Login gagal sesuai expected result")
+2026-03-06 00:58:28.366 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Login gagal sesuai expected result
+2026-03-06 00:58:28.369 DEBUG testcase.TC_Login_Invalid                - 13: takeScreenshot("Login_Invalid/Page_Swag Labs/input_Password")
+2026-03-06 00:58:28.756 DEBUG testcase.TC_Login_Invalid                - 14: closeBrowser()
+2026-03-06 00:58:31.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_Login_Invalid
+2026-03-06 00:58:31.534 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 00:58:31.534 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_Login_Valid
+2026-03-06 00:58:31.619 DEBUG testcase.TC_Login_Valid                  - 1: username = "standard_user"
+2026-03-06 00:58:31.622 DEBUG testcase.TC_Login_Valid                  - 2: passwordEncrypted = "qcu24s4901FyWDTwXGr6XA=="
+2026-03-06 00:58:31.623 DEBUG testcase.TC_Login_Valid                  - 3: openBrowser("")
+2026-03-06 00:58:31.624 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2026-03-06 00:58:31.638 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-03-06 00:58:35.625 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2be4b23e-39f7-4bcd-8cae-5b0f616a2adc
+2026-03-06 00:58:35.626 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 148.0
+2026-03-06 00:58:35.627 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 00:58:35.628 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 00:58:35.629 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 00:58:35.659 DEBUG testcase.TC_Login_Valid                  - 4: maximizeWindow()
+2026-03-06 00:58:36.006 DEBUG testcase.TC_Login_Valid                  - 5: navigateToUrl("https://www.saucedemo.com/")
+2026-03-06 00:58:36.871 DEBUG testcase.TC_Login_Valid                  - 6: waitForElementVisible(findTestObject("Login_Valid/Page_Swag Labs/input_Username"), 10)
+2026-03-06 00:58:37.235 DEBUG testcase.TC_Login_Valid                  - 7: setText(findTestObject("Login_Valid/Page_Swag Labs/input_Username"), username)
+2026-03-06 00:58:38.038 DEBUG testcase.TC_Login_Valid                  - 8: setEncryptedText(findTestObject("Login_Valid/Page_Swag Labs/input_Password"), passwordEncrypted)
+2026-03-06 00:58:38.553 DEBUG testcase.TC_Login_Valid                  - 9: click(findTestObject("Login_Valid/Page_Swag Labs/input_login-button"))
+2026-03-06 00:58:38.990 DEBUG testcase.TC_Login_Valid                  - 10: loginSuccess = verifyElementPresent(findTestObject("Login_Valid/Page_Swag Labs/div_Swag Labs"), 10, OPTIONAL)
+2026-03-06 00:58:39.379 DEBUG testcase.TC_Login_Valid                  - 11: if (loginSuccess)
+2026-03-06 00:58:39.382 DEBUG testcase.TC_Login_Valid                  - 1: comment("Login berhasil - user masuk ke halaman inventory")
+2026-03-06 00:58:39.394 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Login berhasil - user masuk ke halaman inventory
+2026-03-06 00:58:39.397 DEBUG testcase.TC_Login_Valid                  - 13: takeScreenshot()
+2026-03-06 00:58:40.076 DEBUG testcase.TC_Login_Valid                  - 14: closeBrowser()
+2026-03-06 00:58:41.691 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_Login_Valid
+2026-03-06 00:58:41.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 00:58:41.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Logout/TC_Logout
+2026-03-06 00:58:41.760 DEBUG testcase.TC_Logout                       - 1: username = "standard_user"
+2026-03-06 00:58:41.762 DEBUG testcase.TC_Logout                       - 2: passwordEncrypted = "qcu24s4901FyWDTwXGr6XA=="
+2026-03-06 00:58:41.762 DEBUG testcase.TC_Logout                       - 3: openBrowser("")
+2026-03-06 00:58:41.765 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2026-03-06 00:58:41.777 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-03-06 00:58:46.180 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5e2e2952-a844-4de1-aae0-ffa061fe8f5c
+2026-03-06 00:58:46.182 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 148.0
+2026-03-06 00:58:46.184 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 00:58:46.184 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 00:58:46.185 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 00:58:46.214 DEBUG testcase.TC_Logout                       - 4: maximizeWindow()
+2026-03-06 00:58:46.565 DEBUG testcase.TC_Logout                       - 5: navigateToUrl("https://www.saucedemo.com/")
+2026-03-06 00:58:47.226 DEBUG testcase.TC_Logout                       - 6: waitForElementVisible(findTestObject("Logout/Page_Swag Labs/input_Username"), 10)
+2026-03-06 00:58:47.581 DEBUG testcase.TC_Logout                       - 7: setText(findTestObject("Logout/Page_Swag Labs/input_Username"), username)
+2026-03-06 00:58:48.263 DEBUG testcase.TC_Logout                       - 8: setEncryptedText(findTestObject("Logout/Page_Swag Labs/input_Password"), passwordEncrypted)
+2026-03-06 00:58:48.683 DEBUG testcase.TC_Logout                       - 9: click(findTestObject("Logout/Page_Swag Labs/input_login-button"))
+2026-03-06 00:58:49.115 DEBUG testcase.TC_Logout                       - 10: waitForElementVisible(findTestObject("Logout/Page_Swag Labs/button_react-burger-menu-btn"), 10)
+2026-03-06 00:58:49.503 DEBUG testcase.TC_Logout                       - 11: click(findTestObject("Logout/Page_Swag Labs/button_react-burger-menu-btn"))
+2026-03-06 00:58:49.888 DEBUG testcase.TC_Logout                       - 12: click(findTestObject("Logout/Page_Swag Labs/a_logout_sidebar_link"))
+2026-03-06 00:58:50.305 DEBUG testcase.TC_Logout                       - 13: logoutSuccess = verifyElementPresent(findTestObject("Logout/Page_Swag Labs/input_login-button"), 10, OPTIONAL)
+2026-03-06 00:58:50.681 DEBUG testcase.TC_Logout                       - 14: if (logoutSuccess)
+2026-03-06 00:58:50.692 DEBUG testcase.TC_Logout                       - 1: comment("Logout berhasil - kembali ke halaman login")
+2026-03-06 00:58:50.700 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Logout berhasil - kembali ke halaman login
+2026-03-06 00:58:50.707 DEBUG testcase.TC_Logout                       - 16: takeScreenshot("Logout/Page_Swag Labs/button_react-burger-menu-btn")
+2026-03-06 00:58:51.031 DEBUG testcase.TC_Logout                       - 17: takeScreenshot("Logout/Page_Swag Labs/a_logout_sidebar_link")
+2026-03-06 00:58:51.368 DEBUG testcase.TC_Logout                       - 18: closeBrowser()
+2026-03-06 00:58:53.948 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Logout/TC_Logout
+2026-03-06 00:58:54.016 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-06 00:58:54.016 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_SauceDemo
+2026-03-06 00:58:54.017 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
